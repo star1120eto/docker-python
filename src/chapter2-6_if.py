@@ -28,3 +28,13 @@ if "AUG" == "aug":
 
 if "あいう" == "あいう":
     print("3番目はTrue")
+
+# in演算子
+if "GAG" in "AUGACGGAGGCUU":
+    print("1番目はTrue")
+    
+if "みんなのpython の学習履歴" in "学習":
+    print("2番目はTrue")
+    
+if "Debian Python Mamba" in "Debian Python Mamba Debian Python Mamba":
+    print("3番目はTrue")
