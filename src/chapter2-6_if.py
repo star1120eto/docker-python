@@ -32,9 +32,19 @@ if "あいう" == "あいう":
 # in演算子
 if "GAG" in "AUGACGGAGGCUU":
     print("1番目はTrue")
-    
+
 if "みんなのpython の学習履歴" in "学習":
     print("2番目はTrue")
-    
+
 if "Debian Python Mamba" in "Debian Python Mamba Debian Python Mamba":
+    print("3番目はTrue")
+
+# リストの比較
+if [1, 2, 3, 4] == [1, 2, 3, 4]:
+    print("1番目はTrue")
+
+if [1, 2, 3] == [2, 3]:
+    print("2番目はTrue")
+
+if [1, 2, 3] == ["1", "2", "3"]:
     print("3番目はTrue")
