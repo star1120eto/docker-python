@@ -48,3 +48,15 @@ if [1, 2, 3] == [2, 3]:
 
 if [1, 2, 3] == ["1", "2", "3"]:
     print("3番目はTrue")
+
+print("◆リストの検索")
+if 2 in [3, 4, 6, 8, 45]:
+    print("1番目はTrue")
+
+if 24 in [13, 24, 35, 46, 57, 58]:
+    print("2番目はTrue")
+
+if "フォーマット" in ["Ruff", "フォーマット", "Format", "リント", "Lint"]:
+    print("3番目はTrue")
+    
+# 以降のif-else文、if-elifはスキップ
