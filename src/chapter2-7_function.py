@@ -1,0 +1,5 @@
+print(abs(10))
+print(abs(-10))
+print(int("100"))
+print(int("100", 2))
+print(int("100", 16))
