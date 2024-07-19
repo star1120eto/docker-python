@@ -15,6 +15,6 @@ print(star)
 del star["最終学歴"]
 print(star)
 
-# エラーになるのでコメントアウト
+# ＫeyError: '学歴' になるので注意
 # del star["学歴"]
 # print(star)
