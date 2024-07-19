@@ -1,3 +1,7 @@
+# 概要
+みんなのpython
+の学習履歴
+
 # Debian Python Mamba
 
 Debian に Mambaforge を Dev Container Features でインストール
